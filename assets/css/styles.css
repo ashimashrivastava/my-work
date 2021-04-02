@@ -141,7 +141,8 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: rgba(0, 0, 0, .5);
+    background-color: #140405;
+    
 }
 
 /* ----- NAV ----- */
@@ -266,7 +267,7 @@ img{
     position: relative;
     height: calc(100vh - var(--header-height));
     grid-template-rows: repeat(2, max-content);
-    align-content: space-around;
+    align-content: center;
     row-gap: 2rem;
 }
 
@@ -281,7 +282,7 @@ img{
     font-size: var(--biggest-font-size);
 }
 
-.home__greeting, .home__profession{
+.home__greeting{
     display: block;
     font-weight: var(--font-bold);
 }
@@ -292,6 +293,8 @@ img{
 }
 
 .home__profession{
+    display: block;
+    font-weight: var(--font-bold);
     font-size: .938rem;
     margin-bottom: var(--mb-3);
 }
